@@ -7,7 +7,7 @@ horaFinal = float(input('Digite a hora final:\n'))
 #minutoFinal = float(input('Digite o minuto final:\n'))
 
 def calcularHora():
-   resultHora = (horaInicial - horaFinal) - 24  
+   resultHora = (horaInicial - horaFinal) 
    print(resultHora)
 
 calcularHora()
